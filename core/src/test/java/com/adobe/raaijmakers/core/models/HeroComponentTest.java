@@ -1,14 +1,14 @@
 package com.adobe.raaijmakers.core.models;
 
+import com.adobe.acs.commons.i18n.I18nProvider;
 import com.adobe.acs.commons.i18n.impl.I18nProviderImpl;
 import com.adobe.acs.commons.models.injectors.annotation.impl.HierarchicalPagePropertyAnnotationProcessorFactory;
 import com.adobe.acs.commons.models.injectors.impl.ContentPolicyValueInjector;
 import com.adobe.acs.commons.models.injectors.impl.HierarchicalPagePropertyInjector;
 import com.adobe.acs.commons.models.injectors.impl.I18nInjector;
 import com.adobe.acs.commons.models.injectors.impl.TagPropertyInjector;
+import com.adobe.acs.commons.models.via.impl.ContentPolicyPropertiesViaProvider;
 import com.adobe.acs.commons.models.via.impl.PageContentResourceViaProvider;
-import com.adobe.raaijmakers.core.services.I18nMap;
-import com.adobe.raaijmakers.core.services.I18nProvider;
 import com.adobe.raaijmakers.core.testcontext.AppAemContext;
 import com.day.cq.wcm.api.Page;
 import io.wcm.testing.mock.aem.junit5.AemContext;
@@ -19,6 +19,7 @@ import org.apache.sling.testing.mock.sling.MockResourceBundle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
 
 import java.io.File;
 import java.io.InputStream;
@@ -52,22 +53,17 @@ class HeroComponentTest {
         context.currentPage("/content/adaptdialog/us/en");
         context.currentResource("/content/adaptdialog/us/en/jcr:content/root/container/container/hero");
 
-        context.contentPolicyMapping("adaptdialog/components/hero", "containerHeight", 250);
-        context.contentPolicyMapping("adaptdialog/components/page", "rtl", true);
-
-        context.addModelsForClasses(HeroComponent.class, HeroSlide.class, Cta.class);
-
 
         context.registerInjectActivateService(new I18nProviderImpl());
+        context.registerService(new TagPropertyInjector());
         context.registerService(new HierarchicalPagePropertyInjector());
         context.registerService(new HierarchicalPagePropertyAnnotationProcessorFactory());
-        context.registerService(new TagPropertyInjector());
         context.registerService(new ContentPolicyValueInjector());
         context.registerService(new PageContentResourceViaProvider());
 
         ResourceBundle bundle = context.request().getResourceBundle(Locale.FRENCH);
-        ((MockResourceBundle)bundle).put("My Aria Label", "getAriaLabelTest");
-        ((MockResourceBundle)bundle).put("My Hero Aria Label", "getHeroAriaLabelTest");
+        ((MockResourceBundle)bundle).put("My Aria Label", "getArialLabelTest");
+
         I18nInjector component = new I18nInjector();
         context.registerInjectActivateService(component);
 
@@ -76,16 +72,11 @@ class HeroComponentTest {
         when(bundleProvider.getResourceBundle(anyString(), any(Locale.class))).thenReturn(bundle);
         context.registerService(ResourceBundleProvider.class, bundleProvider);
 
+        context.contentPolicyMapping("adaptdialog/components/hero", "containerHeight", 250);
+        context.contentPolicyMapping("adaptdialog/components/page", "rtl", true);
 
-        I18nProvider service = mock(I18nProvider.class);
-        I18nMap mockedMap = mock(I18nMap.class);
+        context.addModelsForClasses(HeroComponent.class, HeroSlide.class, Cta.class);
 
-        when(mockedMap.getHeroArialLabel()).thenReturn("getHeroAriaLabelTest");
-        when(mockedMap.getAriaLabel()).thenReturn("getAriaLabelTest");
-
-        when(service.getMap(any())).thenReturn(mockedMap);
-
-        context.registerService(I18nProvider.class, service);
         // create sling model
         systemUnderTest = context.currentResource().adaptTo(HeroComponent.class);
     }
@@ -99,7 +90,7 @@ class HeroComponentTest {
 
         assertEquals("height:250px", systemUnderTest.getContainerHeight());
 
-        assertEquals("getHeroAriaLabelTest", systemUnderTest.getAriaLabel());
+        assertEquals("getArialLabelTest", systemUnderTest.getAriaLabel());
 
         HeroSlide slide1 = systemUnderTest.getSlides().get(0);
 
@@ -111,7 +102,7 @@ class HeroComponentTest {
         Cta ctaLeft = slide1.getCtaLeft();
         assertEquals("primary", ctaLeft.getButtonType());
         assertEquals("_self", ctaLeft.getTarget());
-        assertEquals("getAriaLabelTest - Terminate", ctaLeft.getAriaLabel());
+        assertEquals("getArialLabelTest - Terminate", ctaLeft.getAriaLabel());
 
     }
 

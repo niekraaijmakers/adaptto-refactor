@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="granite/ui/components/coral/foundation/container"
+          granite:class="cmp-image__editor">
+
+        <items jcr:primaryType="nt:unstructured">
+            <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                    fieldDescription="Select the page to link to"
+                    rootPath="/content/dam"
+                    fieldLabel="Image Url"
+                    name="./imageUrl"
+                    required="{Boolean}true"
+                    showTitleInText="{Boolean}true"
+                    title="Image"/>
+
+            <tags
+                    jcr:primaryType="nt:unstructured"
+                    allowBulkEdit="true"
+                    allowCreate="true"
+                    cq-msm-lockable="cq:tags"
+                    cq:showOnCreate="false"
+                    fieldLabel="Tag Selector"
+                    name="./tags"
+                    renderReadOnly="true"
+                    sling:resourceType="cq/gui/components/common/tagspicker"/>
+
+            <ctaLeft
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Left Cta"
+                    sling:resourceType="acs-commons/granite/ui/components/include"
+                    path="/apps/adaptdialog/dialogsnippet/cta"
+                    namespace="ctaLeft"
+                    margin="{Boolean}true">
+                    <parameters
+                            jcr:primaryType="nt:unstructured"
+                            extraCssClass="${{(String)extraCssClassCtaLeft}}"
+                            ctaPrefix="Left CTA"/>
+            </ctaLeft>
+
+            <ctaRight
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Right Cta"
+                    sling:resourceType="acs-commons/granite/ui/components/include"
+                    path="/apps/adaptdialog/dialogsnippet/cta"
+                    namespace="ctaRight"
+                    margin="{Boolean}true">
+                <parameters
+                        jcr:primaryType="nt:unstructured"
+                        extraCssClass="${{(String)extraCssClassCtaRight}}"
+                        ctaPrefix="Right CTA"/>
+            </ctaRight>
+        </items>
+</jcr:root>

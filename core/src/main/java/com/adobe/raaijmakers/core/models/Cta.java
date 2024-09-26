@@ -1,21 +1,14 @@
 package com.adobe.raaijmakers.core.models;
 
-import com.adobe.raaijmakers.core.services.I18nMap;
-import com.adobe.raaijmakers.core.services.I18nProvider;
+import com.adobe.acs.commons.models.injectors.annotation.I18N;
+import com.day.cq.i18n.I18n;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.Optional;
-import org.apache.sling.models.annotations.injectorspecific.OSGiService;
-import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-
-import javax.annotation.PostConstruct;
 
 @Model(adaptables = { Resource.class })
 public class Cta {
-
-    @Self
-    private Resource resource;
 
     @ValueMapValue
     private String buttonType;
@@ -32,16 +25,11 @@ public class Cta {
     @ValueMapValue
     private String text;
 
-    private I18nMap i18nMap;
+    @I18N(value = "My Aria Label")
+    private String ariaLabel;
 
-    @OSGiService
-    private I18nProvider i18nProvider;
-
-    @PostConstruct
-    public void postConstruct() {
-        // Do something
-        i18nMap = i18nProvider.getMap(resource);
-    }
+    @I18N
+    private I18n i18N;
 
     public String getButtonType() {
         return buttonType;
@@ -64,7 +52,7 @@ public class Cta {
     }
 
     public String getAriaLabel() {
-        return i18nMap.getAriaLabel() + " - " + text;
+        //String ariaLabel = i18N.get("My Aria Label");
+        return ariaLabel + " - " + text;
     }
-
 }

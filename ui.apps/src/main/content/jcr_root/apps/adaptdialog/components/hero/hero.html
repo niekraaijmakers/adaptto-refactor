@@ -3,7 +3,7 @@
         <a href="${cta.link}" aria-label="${cta.ariaLabel}" target="${cta.target}">${cta.text}</a>
     </div>
 </template>
-<div data-sly-use.hero="com.adobe.raaijmakers.core.models.HeroComponent" aria-label="${hero.ariaLabel}" class="cmp-hero" style="${hero.containerHeight @context='styleString'}">
+<div data-sly-use.hero="com.adobe.raaijmakers.core.models.HeroComponent" class="cmp-hero" style="${hero.containerHeight @context='styleString'}">
     <div class="cmp-hero__slide" data-sly-repeat.slide="${hero.slides}" data-tags="${slide.tags}" style="${hero.containerHeight @context='styleString'}">
         <div class="cmp-hero__bg"><img src="${slide.imageUrl}"/></div>
         <div class="cmp-hero__content">
