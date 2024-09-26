@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <columns jcr:primaryType="nt:unstructured"
+                 sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                 margin="{Boolean}true">
+            <items jcr:primaryType="nt:unstructured">
+                <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                    <items jcr:primaryType="nt:unstructured">
+                        <dropdown1
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="acs-commons/granite/ui/components/include"
+                                namespace="dynamicSelect1"
+                                path="/apps/adaptdialog/dialogsnippet/dynamicselect">
+                            <parameters
+                                    jcr:primaryType="nt:unstructured"
+                                    dataSource="type_A"
+                                    passedThroughParam="${{(String)passedThroughParam:secondDefaultVal}}"
+                            />
+                        </dropdown1>
+                        <dropdown2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="acs-commons/granite/ui/components/include"
+                                namespace="dynamicSelect2"
+                                path="/apps/adaptdialog/dialogsnippet/dynamicselect">
+                            <parameters
+                                    jcr:primaryType="nt:unstructured"
+                                    dataSource="type_B"
+
+                            />
+                        </dropdown2>
+                    </items>
+                </column>
+            </items>
+        </columns>
+    </items>
+</jcr:root>
+        <!--                    heading="${{(String)heading:Select Collection 1}}"-->
+
+        <!--                    heading="${{(String)heading:Select Collection 1}}"-->

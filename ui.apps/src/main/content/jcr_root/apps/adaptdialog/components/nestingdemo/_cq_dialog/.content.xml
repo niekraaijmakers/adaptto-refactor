@@ -14,145 +14,29 @@
                     sling:resourceType="granite/ui/components/coral/foundation/tabs"
                     maximized="{Boolean}true">
                 <items jcr:primaryType="nt:unstructured">
-
-                    <tab1
+                    <dropdown1
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Tab 1"
-                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                        <items jcr:primaryType="nt:unstructured">
-                            <columns jcr:primaryType="nt:unstructured"
-                                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-                                     margin="{Boolean}true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <column
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                                        <items jcr:primaryType="nt:unstructured">
-                                            <dropdown1 jcr:primaryType="nt:unstructured"
-                                                      sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                      fieldDescription="The accordion item heading HTML element."
-                                                      fieldLabel="Heading Element"
-                                                      name="./dropdown1/dynamicSelect1/selectValue"
-                                                      passedThroughParam="Top Level ValueZ"
-                                                      dataSource="type_A"
-                                                      ordered="{Boolean}true"
-                                                      wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown1>
-                                            <dropdown2 jcr:primaryType="nt:unstructured"
-                                                       sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                       fieldDescription="The accordion item heading HTML element."
-                                                       fieldLabel="Heading Element"
-                                                       name="./dropdown1/dynamicSelect2/selectValue"
-                                                       passedThroughParam="Top Level ValueZ"
-                                                       dataSource="type_B"
-                                                       ordered="{Boolean}true"
-                                                       wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown2>
-                                        </items>
-                                    </column>
-                                </items>
-                            </columns>
-                        </items>
-                    </tab1>
-
-                    <tab2
+                            sling:resourceType="acs-commons/granite/ui/components/include"
+                            namespace="dropdown1"
+                            path="/apps/adaptdialog/dialogsnippet/selectcollection">
+                        <parameters
+                                jcr:primaryType="nt:unstructured"
+                                dataSource="type_A"
+                                passedThroughParam="Top Level ValueZ"
+                        />
+                    </dropdown1>
+                    <dropdown2
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Tab 2"
-                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                        <items jcr:primaryType="nt:unstructured">
-                            <columns jcr:primaryType="nt:unstructured"
-                                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-                                     margin="{Boolean}true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <column
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                                        <items jcr:primaryType="nt:unstructured">
-                                            <dropdown1 jcr:primaryType="nt:unstructured"
-                                                       sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                       fieldDescription="The accordion item heading HTML element."
-                                                       fieldLabel="Heading Element"
-                                                       name="./dropdown2/dynamicSelect1/selectValue"
-                                                       passedThroughParam="defaultVal"
-                                                       dataSource="type_A"
-                                                       ordered="{Boolean}true"
-                                                       wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown1>
-                                            <dropdown2 jcr:primaryType="nt:unstructured"
-                                                       sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                       fieldDescription="The accordion item heading HTML element."
-                                                       fieldLabel="Heading Element"
-                                                       name="./dropdown2/dynamicSelect2/selectValue"
-                                                       passedThroughParam="defaultVal"
-                                                       dataSource="type_B"
-                                                       ordered="{Boolean}true"
-                                                       wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown2>
-                                        </items>
-                                    </column>
-                                </items>
-                            </columns>
-                        </items>
-                    </tab2>
-
-                    <tab3
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Tab 3"
-                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                        <items jcr:primaryType="nt:unstructured">
-                            <columns jcr:primaryType="nt:unstructured"
-                                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-                                     margin="{Boolean}true">
-                                <items jcr:primaryType="nt:unstructured">
-                                    <column
-                                            jcr:primaryType="nt:unstructured"
-                                            sling:resourceType="granite/ui/components/coral/foundation/container">
-                                        <items jcr:primaryType="nt:unstructured">
-                                            <dropdown1 jcr:primaryType="nt:unstructured"
-                                                       sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                       fieldDescription="The accordion item heading HTML element."
-                                                       fieldLabel="Heading Element"
-                                                       name="./dropdown3/dynamicSelect1/selectValue"
-                                                       passedThroughParam="defaultVal"
-                                                       dataSource="type_B"
-                                                       ordered="{Boolean}true"
-                                                       wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown1>
-                                            <dropdown2 jcr:primaryType="nt:unstructured"
-                                                       sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                       fieldDescription="The accordion item heading HTML element."
-                                                       fieldLabel="Heading Element"
-                                                       name="./dropdown3/dynamicSelect2/selectValue"
-                                                       passedThroughParam="myOtherValue"
-                                                       dataSource="type_B"
-                                                       ordered="{Boolean}true"
-                                                       wrapperClass="foundation-toggleable">
-                                                <datasource
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="adaptdialog/dialogsnippet/dynamicselect/source"/>
-                                            </dropdown2>
-                                        </items>
-                                    </column>
-                                </items>
-                            </columns>
-                        </items>
-                    </tab3>
-
+                            sling:resourceType="acs-commons/granite/ui/components/include"
+                            namespace="dropdown2"
+                            path="/apps/adaptdialog/dialogsnippet/selectcollection">
+                        <parameters
+                                jcr:primaryType="nt:unstructured"
+                                dataSource="type_B"
+                        />
+                    </dropdown2>
 
                 </items>
             </tabs>
