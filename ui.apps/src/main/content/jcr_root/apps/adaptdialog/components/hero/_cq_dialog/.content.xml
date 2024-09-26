@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+     xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/container"
+            granite:class="cmp-image__editor">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                    maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+
+                    <slide1
+                              jcr:title="Slide 1"
+                              jcr:primaryType="nt:unstructured"
+                              sling:resourceType="granite/ui/components/coral/foundation/container"
+                              granite:class="cmp-image__editor">
+
+                        <items jcr:primaryType="nt:unstructured">
+
+                            <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                    fieldDescription="Select the page to link to"
+                                    rootPath="/content/dam"
+                                    fieldLabel="Image Url"
+                                    name="./slide1/imageUrl"
+                                    required="{Boolean}true"
+                                    showTitleInText="{Boolean}true"
+                                    title="Image"/>
+
+                            <tags
+                                    jcr:primaryType="nt:unstructured"
+                                    allowBulkEdit="true"
+                                    allowCreate="true"
+                                    cq-msm-lockable="cq:tags"
+                                    cq:showOnCreate="false"
+                                    fieldLabel="Tag Selector"
+                                    name="./slide1/tags"
+                                    renderReadOnly="true"
+                                    sling:resourceType="cq/gui/components/common/tagspicker"/>
+                            <section
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    maximized="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <leftCta  jcr:title="left cta"  jcr:primaryType="nt:unstructured"
+                                              sling:resourceType="granite/ui/components/coral/foundation/container"
+                                              wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Left CTA Text"
+                                                    name="./slide1/ctaLeft/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Left CTA Link"
+                                                    name="./slide1/ctaLeft/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Button Type"
+                                                    name="./slide1/ctaLeft/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide1-left"
+                                                    name="./slide1/ctaLeft/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Target"
+                                                    name="./slide1/ctaLeft/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </leftCta>
+
+                                    <rightCta  jcr:title="right cta"  jcr:primaryType="nt:unstructured"
+                                              sling:resourceType="granite/ui/components/coral/foundation/container"
+                                              wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Right CTA Text"
+                                                    name="./slide1/ctaRight/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Right CTA Link"
+                                                    name="./slide1/ctaRight/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Button Type"
+                                                    name="./slide1/ctaRight/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide1-right"
+                                                    name="./slide1/ctaRight/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Target"
+                                                    name="./slide1/ctaRight/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </rightCta>
+
+                                </items>
+                            </section>
+
+                        </items>
+                    </slide1>
+
+                    <slide2
+                            jcr:title="Slide 2"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            granite:class="cmp-image__editor">
+
+                        <items jcr:primaryType="nt:unstructured">
+
+                            <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                    fieldDescription="Select the page to link to"
+                                    rootPath="/content/dam"
+                                    fieldLabel="Image Url"
+                                    name="./slide2/imageUrl"
+                                    required="{Boolean}true"
+                                    showTitleInText="{Boolean}true"
+                                    title="Image"/>
+
+                            <tags
+                                    jcr:primaryType="nt:unstructured"
+                                    allowBulkEdit="true"
+                                    allowCreate="true"
+                                    cq-msm-lockable="cq:tags"
+                                    cq:showOnCreate="false"
+                                    fieldLabel="Tag Selector"
+                                    name="./slide2/tags"
+                                    renderReadOnly="true"
+                                    sling:resourceType="cq/gui/components/common/tagspicker"/>
+                            <section
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    maximized="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <leftCta  jcr:title="left cta"  jcr:primaryType="nt:unstructured"
+                                              sling:resourceType="granite/ui/components/coral/foundation/container"
+                                              wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Left CTA Text"
+                                                    name="./slide2/ctaLeft/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Left CTA Link"
+                                                    name="./slide2/ctaLeft/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Button Type"
+                                                    name="./slide2/ctaLeft/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide2-left"
+                                                    name="./slide2/ctaLeft/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Target"
+                                                    name="./slide2/ctaLeft/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </leftCta>
+
+                                    <rightCta  jcr:title="right cta"  jcr:primaryType="nt:unstructured"
+                                               sling:resourceType="granite/ui/components/coral/foundation/container"
+                                               wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Right CTA Text"
+                                                    name="./slide2/ctaRight/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Right CTA Link"
+                                                    name="./slide2/ctaRight/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Button Type"
+                                                    name="./slide2/ctaRight/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide2-right"
+                                                    name="./slide2/ctaRight/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Target"
+                                                    name="./slide2/ctaRight/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </rightCta>
+
+                                </items>
+                            </section>
+
+                        </items>
+                    </slide2>
+
+                    <slide3
+                            jcr:title="Slide 3"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            granite:class="cmp-image__editor">
+
+                        <items jcr:primaryType="nt:unstructured">
+
+                            <image
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                    fieldDescription="Select the page to link to"
+                                    rootPath="/content/dam"
+                                    fieldLabel="Image Url"
+                                    name="./slide3/imageUrl"
+                                    required="{Boolean}true"
+                                    showTitleInText="{Boolean}true"
+                                    title="Image"/>
+
+                            <tags
+                                    jcr:primaryType="nt:unstructured"
+                                    allowBulkEdit="true"
+                                    allowCreate="true"
+                                    cq-msm-lockable="cq:tags"
+                                    cq:showOnCreate="false"
+                                    fieldLabel="Tag Selector"
+                                    name="./slide3/tags"
+                                    renderReadOnly="true"
+                                    sling:resourceType="cq/gui/components/common/tagspicker"/>
+                            <section
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    maximized="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <leftCta  jcr:title="left cta"  jcr:primaryType="nt:unstructured"
+                                              sling:resourceType="granite/ui/components/coral/foundation/container"
+                                              wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Left CTA Text"
+                                                    name="./slide3/ctaLeft/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Left CTA Link"
+                                                    name="./slide3/ctaLeft/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Button Type"
+                                                    name="./slide3/ctaLeft/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide3-left"
+                                                    name="./slide3/ctaLeft/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Left CTA Target"
+                                                    name="./slide3/ctaLeft/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </leftCta>
+
+                                    <rightCta  jcr:title="right cta"  jcr:primaryType="nt:unstructured"
+                                               sling:resourceType="granite/ui/components/coral/foundation/container"
+                                               wrapperClass="foundation-toggleable">
+
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldDescription="Link title"
+                                                    required="{Boolean}true"
+                                                    fieldLabel="Right CTA Text"
+                                                    name="./slide3/ctaRight/text"/>
+
+                                            <link
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldDescription="Select the page to link to"
+                                                    fieldLabel="Right CTA Link"
+                                                    name="./slide3/ctaRight/link"
+                                                    required="{Boolean}true"
+                                                    showTitleInText="{Boolean}true"
+                                                    title="Select Link"/>
+
+                                            <buttonType
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Button Type"
+                                                    name="./slide3/ctaRight/buttonType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <primary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Primary"
+                                                            value="primary"
+                                                    />
+                                                    <secondary
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Secondary"
+                                                            value="secondary"
+                                                    />
+
+                                                </items>
+                                            </buttonType>
+
+                                            <extraCssClass
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                    value="slide3-right"
+                                                    name="./slide3/ctaRight/extraCssClass"/>
+
+                                            <type
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Right CTA Target"
+                                                    name="./slide3/ctaRight/target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <self
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Normal"
+                                                            value="_self"/>
+                                                    <blank
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="New Tab"
+                                                            value="_blank"/>
+                                                    <parent
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Parent Frame"
+                                                            value="_parent"/>
+                                                    <top
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="Top Frame"
+                                                            value="_top"/>
+                                                </items>
+                                            </type>
+                                        </items>
+
+                                    </rightCta>
+
+                                </items>
+                            </section>
+
+                        </items>
+                    </slide3>
+
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

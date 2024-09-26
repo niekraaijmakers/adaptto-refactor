@@ -1,0 +1,23 @@
+
+@import 'variables';
+@import 'base';
+@import '../components/**/*.scss';
+@import './styles/*.scss';
+
+
+.cmp-hero__content .left{
+  position: absolute;
+  left: 0;
+  background: #2c0000;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.cmp-hero__content .right{
+  position: absolute;
+  right: 0;
+  background: #2c0000;
+  border-radius: 12px;
+  padding: 2rem;
+}
+

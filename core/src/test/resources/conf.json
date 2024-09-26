@@ -1,0 +1,1750 @@
+{
+  "jcr:primaryType": "sling:Folder",
+  "jcr:createdBy": "admin",
+  "jcr:title": "My AdaptTo Demo",
+  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+  "settings": {
+    "jcr:primaryType": "sling:Folder",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+    "dam": {
+      "jcr:primaryType": "sling:Folder",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+      "cfm": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+        "models": {
+          "jcr:primaryType": "cq:Page",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "jcr:content": {
+            "jcr:primaryType": "nt:unstructured"
+          }
+        }
+      }
+    },
+    "wcm": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+      "templates": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:mixinTypes": [
+          "rep:AccessControllable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+        "page-content": {
+          "jcr:primaryType": "cq:Template",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "thumbnail.png": {
+            "jcr:primaryType": "nt:file",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:resource",
+              "jcr:mixinTypes": [
+                "dam:Thumbnails"
+              ],
+              "jcr:lastModifiedBy": "admin",
+              "jcr:mimeType": "image/png",
+              "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              ":jcr:data": 2160,
+              "jcr:uuid": "720357e8-9d47-446a-89de-f4cbc98d8885",
+              "dam:thumbnails": {
+                "jcr:primaryType": "nt:folder",
+                "jcr:createdBy": "admin",
+                "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                "dam:thumbnail_319.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 1344,
+                    "jcr:uuid": "91a3c17f-28df-4870-bb91-fe924ab0b172"
+                  }
+                },
+                "dam:thumbnail_60.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Mon Aug 05 2024 10:10:03 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Mon Aug 05 2024 10:10:03 GMT+0200",
+                    ":jcr:data": 308,
+                    "jcr:uuid": "adb158c6-2c7d-4638-961d-22ed14841d50"
+                  }
+                },
+                "dam:thumbnail_300.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 1199,
+                    "jcr:uuid": "414641c4-2221-4436-b4dd-f1679ca8e4ce"
+                  }
+                },
+                "dam:thumbnail_48.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 238,
+                    "jcr:uuid": "e8c32b1e-d08c-4cb7-a14e-ff68cc53760f"
+                  }
+                }
+              }
+            }
+          },
+          "initial": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/page-content",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "sling:resourceType": "adaptdialog/components/page",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "layout": "responsiveGrid",
+                  "sling:resourceType": "adaptdialog/components/container",
+                  "title": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "adaptdialog/components/title"
+                  },
+                  "container": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "adaptdialog/components/container"
+                  }
+                }
+              }
+            }
+          },
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Content Page",
+            "status": "enabled",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "cq:lastModified": "Tue Sep 24 2024 09:35:23 GMT+0200",
+            "jcr:description": "My Site Page Template",
+            "cq:templateType": "/conf/adaptdialog/settings/wcm/template-types/page",
+            "cq:lastModifiedBy": "admin"
+          },
+          "structure": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/page-content",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:deviceGroups": [
+                "mobile/groups/responsive"
+              ],
+              "sling:resourceType": "adaptdialog/components/page",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "experiencefragment-header": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "fragmentVariationPath": "/content/experience-fragments/adaptdialog/us/en/site/header/master",
+                  "sling:resourceType": "adaptdialog/components/experiencefragment"
+                },
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "layout": "responsiveGrid",
+                  "sling:resourceType": "adaptdialog/components/container",
+                  "title": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "adaptdialog/components/title",
+                    "editable": true
+                  },
+                  "container": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "adaptdialog/components/container",
+                    "editable": true
+                  }
+                },
+                "experiencefragment-footer": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "fragmentVariationPath": "/content/experience-fragments/adaptdialog/us/en/site/footer/master",
+                  "sling:resourceType": "adaptdialog/components/experiencefragment"
+                }
+              },
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "breakpoints": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "phone": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Smaller Screen",
+                    "width": 768
+                  },
+                  "tablet": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Tablet",
+                    "width": 1200
+                  }
+                }
+              }
+            }
+          },
+          "policies": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:unstructured",
+              "cq:lastModified": "Tue Sep 24 2024 09:35:23 GMT+0200",
+              "cq:policy": "adaptdialog/components/page/policy",
+              "sling:resourceType": "wcm/core/components/policies/mappings",
+              "cq:lastModifiedBy": "admin",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:policy": "adaptdialog/components/container/policy_1574694950110",
+                "sling:resourceType": "wcm/core/components/policies/mapping",
+                "experiencefragment-header": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "cq:policy": "adaptdialog/components/experiencefragment/policy_header",
+                  "sling:resourceType": "wcm/core/components/policies/mapping"
+                },
+                "experiencefragment-footer": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "cq:policy": "adaptdialog/components/experiencefragment/policy_footer",
+                  "sling:resourceType": "wcm/core/components/policies/mapping"
+                },
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "cq:policy": "adaptdialog/components/container/policy_649128221558427",
+                  "sling:resourceType": "wcm/core/components/policies/mapping",
+                  "container": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "cq:policy": "adaptdialog/components/container/policy_1574695586800",
+                    "sling:resourceType": "wcm/core/components/policies/mapping",
+                    "adaptdialog": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "components": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "form": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "container": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "cq:policy": "adaptdialog/components/form/container/form-container",
+                            "sling:resourceType": "wcm/core/components/policies/mapping"
+                          }
+                        },
+                        "title": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/title/policy_641528232375303",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        },
+                        "text": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/text/policy_641562756958017",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        },
+                        "teaser": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/teaser/policy_1575031387650",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        },
+                        "image": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/image/policy_651483963895698",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        },
+                        "download": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/download/policy_1575032193319",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        },
+                        "hero": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "cq:policy": "adaptdialog/components/hero/policy_1722862607892",
+                          "sling:resourceType": "wcm/core/components/policies/mapping"
+                        }
+                      }
+                    }
+                  },
+                  "title": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "cq:policy": "adaptdialog/components/title/policy_641475696923109",
+                    "sling:resourceType": "wcm/core/components/policies/mapping"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xf-web-variation": {
+          "jcr:primaryType": "cq:Template",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "thumbnail.png": {
+            "jcr:primaryType": "nt:file",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:resource",
+              "jcr:mixinTypes": [
+                "dam:Thumbnails"
+              ],
+              "jcr:lastModifiedBy": "admin",
+              "jcr:mimeType": "image/png",
+              "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              ":jcr:data": 2160,
+              "jcr:uuid": "a8138053-7e96-4ce7-a4de-a74f0f5db49f",
+              "dam:thumbnails": {
+                "jcr:primaryType": "nt:folder",
+                "jcr:createdBy": "admin",
+                "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                "dam:thumbnail_319.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 1344,
+                    "jcr:uuid": "647d8bfb-d6c7-4132-9dc0-ff2c0e35f387"
+                  }
+                },
+                "dam:thumbnail_128.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 527,
+                    "jcr:uuid": "94a6f6ce-7ad5-4b41-9cd6-aa746d82a5fc"
+                  }
+                }
+              }
+            }
+          },
+          "initial": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/xf-web-variation",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:xfVariantType": "web",
+              "cq:tags": [
+                "experience-fragments:variation/web"
+              ],
+              "sling:resourceType": "adaptdialog/components/xfpage",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container"
+              }
+            }
+          },
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Web Variation",
+            "status": "enabled",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:description": "My Site Experience Fragment Template",
+            "cq:templateType": "/conf/adaptdialog/settings/wcm/template-types/xf"
+          },
+          "structure": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/xf-web-variation",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:deviceGroups": [
+                "mobile/groups/responsive"
+              ],
+              "sling:resourceType": "adaptdialog/components/xfpage",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "editable": true
+              },
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "breakpoints": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "phone": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Smaller Screen",
+                    "width": 768
+                  },
+                  "tablet": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Tablet",
+                    "width": 1200
+                  }
+                }
+              }
+            }
+          },
+          "policies": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:unstructured",
+              "cq:policy": "adaptdialog/components/page/policy",
+              "sling:resourceType": "wcm/core/components/policies/mappings",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:policy": "adaptdialog/components/container/policy_1575040440977",
+                "sling:resourceType": "wcm/core/components/policies/mapping",
+                "mysite": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "components": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "cq:policy": "adaptdialog/components/title/policy_641528232375303",
+                      "sling:resourceType": "wcm/core/components/policies/mapping"
+                    },
+                    "text": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "cq:policy": "adaptdialog/components/text/policy_641562756958017",
+                      "sling:resourceType": "wcm/core/components/policies/mapping"
+                    },
+                    "teaser": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "cq:policy": "adaptdialog/components/teaser/policy_1575031387650",
+                      "sling:resourceType": "wcm/core/components/policies/mapping"
+                    },
+                    "download": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "cq:policy": "adaptdialog/components/download/policy_1575032193319",
+                      "sling:resourceType": "wcm/core/components/policies/mapping"
+                    },
+                    "image": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "cq:policy": "adaptdialog/components/image/policy_651483963895698",
+                      "sling:resourceType": "wcm/core/components/policies/mapping"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rep:policy": {
+          "jcr:primaryType": "rep:ACL",
+          "allow": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "everyone",
+            "rep:privileges": [
+              "jcr:read"
+            ]
+          },
+          "allow1": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "content-authors",
+            "rep:privileges": [
+              "crx:replicate"
+            ]
+          },
+          "allow2": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "template-authors",
+            "rep:privileges": [
+              "jcr:versionManagement",
+              "rep:write",
+              "crx:replicate",
+              "jcr:lockManagement"
+            ]
+          },
+          "allow3": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "version-manager-service",
+            "rep:privileges": [
+              "jcr:versionManagement",
+              "rep:write"
+            ]
+          }
+        }
+      },
+      "policies": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:mixinTypes": [
+          "rep:AccessControllable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+        "rep:policy": {
+          "jcr:primaryType": "rep:ACL",
+          "allow": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "everyone",
+            "rep:privileges": [
+              "jcr:read"
+            ]
+          },
+          "allow1": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "content-authors",
+            "rep:privileges": [
+              "crx:replicate"
+            ]
+          },
+          "allow2": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "template-authors",
+            "rep:privileges": [
+              "jcr:versionManagement",
+              "rep:write",
+              "crx:replicate",
+              "jcr:lockManagement"
+            ]
+          },
+          "allow3": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "version-manager-service",
+            "rep:privileges": [
+              "jcr:versionManagement",
+              "rep:write"
+            ]
+          }
+        },
+        "adaptdialog": {
+          "jcr:primaryType": "nt:unstructured",
+          "components": {
+            "jcr:primaryType": "nt:unstructured",
+            "form": {
+              "jcr:primaryType": "nt:unstructured",
+              "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "form-container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "jcr:title": "Content Form",
+                  "components": [
+                    "/apps/adaptdialog/components/form/button",
+                    "/apps/adaptdialog/components/form/hidden",
+                    "/apps/adaptdialog/components/form/options",
+                    "/apps/adaptdialog/components/form/text"
+                  ],
+                  "jcr:description": "Allows the form components to be dropped into this core form container.",
+                  "sling:resourceType": "wcm/core/components/policy/policy",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:unstructured"
+                  }
+                }
+              }
+            },
+            "languagenavigation": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_xfm": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "My AdaptTo Demo Language Navigation - Experience Fragment",
+                "navigationRoot": "/content/adaptdialog",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "structureDepth": "1",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "image": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_651483963895698": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Content Image",
+                "uuidDisabled": "true",
+                "allowedRenditionWidths": [
+                  "320",
+                  "480",
+                  "600",
+                  "800",
+                  "1024",
+                  "1200",
+                  "1600"
+                ],
+                "jcr:description": "- Enable lazy loading for faster page loading.\r\n- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.\r\n- Disallow direct asset upload, to force authors to first upload the images to Assets.",
+                "displayPopupTitle": "true",
+                "enableAssetDelivery": "true",
+                "titleValueFromDAM": "true",
+                "allowUpload": "false",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "isDecorative": "false",
+                "jpegQuality": 85,
+                "disableLazyLoading": "false",
+                "altValueFromDAM": "true",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "plugins": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "crop": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "*",
+                    "aspectRatios": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "name": "Wide Landscape",
+                        "ratio": "0.6180"
+                      },
+                      "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "name": "Landscape",
+                        "ratio": "0.8284"
+                      },
+                      "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "name": "Square",
+                        "ratio": "1"
+                      },
+                      "item3": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "name": "Portrait",
+                        "ratio": "1.6180"
+                      }
+                    }
+                  },
+                  "rotate": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "right"
+                  },
+                  "flip": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  }
+                }
+              }
+            },
+            "text": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_641562756958017": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Content Text",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "rtePlugins": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "paraformat": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "*",
+                    "formats": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "override": "true",
+                      "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Paragraph",
+                        "tag": "p"
+                      },
+                      "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Quote",
+                        "tag": "blockquote"
+                      },
+                      "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Preformatted",
+                        "tag": "pre"
+                      }
+                    }
+                  },
+                  "misctools": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-",
+                    "specialCharsConfig": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "chars": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "override": "true",
+                        "item0": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "entity": "&copy;",
+                          "name": "copyright"
+                        },
+                        "item1": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "entity": "&euro;",
+                          "name": "euro"
+                        },
+                        "item2": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "entity": "&reg;",
+                          "name": "registered"
+                        },
+                        "item3": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "entity": "&trade;",
+                          "name": "trademark"
+                        }
+                      }
+                    }
+                  },
+                  "edit": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "findreplace": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "undo": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "spellcheck": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "image": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "table": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "lists": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "*"
+                  },
+                  "justify": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  },
+                  "format": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "bold,italic"
+                  },
+                  "links": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "modifylink,unlink"
+                  },
+                  "subsuperscript": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "features": "-"
+                  }
+                }
+              }
+            },
+            "title": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_641475696923109": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Title",
+                "allowedTypes": "h1",
+                "type": "h1",
+                "jcr:description": "Allows only H1 and disallows links for the main page title.",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "linkDisabled": "true",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "policy_641528232375303": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Content Title",
+                "allowedTypes": [
+                  "h2",
+                  "h3",
+                  "h4",
+                  "h5",
+                  "h6"
+                ],
+                "type": "h2",
+                "jcr:description": "Allows all sizes, but not H1, which is reserved for the main page title.",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "linkDisabled": "false",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "experiencefragment": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_header": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Header",
+                "jcr:description": "Sets a \u003Cheader\u003E element on the page header experience fragment.",
+                "cq:styleDefaultElement": "header",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "policy_footer": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Footer",
+                "jcr:description": "Sets a \u003Cfooter\u003E element on the page footer experience fragment.",
+                "cq:styleDefaultElement": "footer",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_1574694950110": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Root",
+                "components": [
+                  "group:My AdaptTo Demo - Content",
+                  "/apps/adaptdialog/components/form/container",
+                  "group:My AdaptTo Demo - Structure"
+                ],
+                "jcr:description": "Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor).",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "cq:authoring": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "assetToComponentMapping": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "mapping_1575024218483": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/image",
+                      "assetMimetype": "image/*",
+                      "droptarget": "image",
+                      "assetGroup": "media"
+                    },
+                    "mapping_1575030843388": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/experiencefragment",
+                      "assetMimetype": "text/html",
+                      "droptarget": "experiencefragment",
+                      "assetGroup": "content"
+                    },
+                    "mapping_1575030853128": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/contentfragment",
+                      "assetMimetype": [
+                        "text/html",
+                        "application/vnd.adobe.contentfragment"
+                      ],
+                      "droptarget": "contentfragment",
+                      "assetGroup": "media"
+                    }
+                  }
+                }
+              },
+              "policy_1574695586800": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Content",
+                "components": [
+                  "group:My AdaptTo Demo - Content",
+                  "/apps/adaptdialog/components/form/container"
+                ],
+                "jcr:description": "Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor).",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "cq:authoring": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "assetToComponentMapping": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "mapping_1575030255082": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/image",
+                      "assetMimetype": "image/*",
+                      "droptarget": "image",
+                      "assetGroup": "media"
+                    },
+                    "mapping_1575030260142": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/experiencefragment",
+                      "assetMimetype": "text/html",
+                      "droptarget": "experiencefragment",
+                      "assetGroup": "content"
+                    },
+                    "mapping_1575030269139": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/contentfragment",
+                      "assetMimetype": [
+                        "text/html",
+                        "application/vnd.adobe.contentfragment"
+                      ],
+                      "droptarget": "contentfragment",
+                      "assetGroup": "media"
+                    }
+                  }
+                }
+              },
+              "policy_649128221558427": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Page Main",
+                "jcr:description": "Sets a \u003Cmain\u003E element on the page content area.",
+                "cq:styleDefaultElement": "main",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "policy_1575040440977": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "XF Root",
+                "components": [
+                  "group:My AdaptTo Demo - Content",
+                  "/apps/adaptdialog/components/form/container"
+                ],
+                "jcr:description": "Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor).",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "cq:authoring": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "assetToComponentMapping": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "mapping_1575024218483": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/image",
+                      "assetMimetype": "image/*",
+                      "droptarget": "image",
+                      "assetGroup": "media"
+                    },
+                    "mapping_1575030843388": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/experiencefragment",
+                      "assetMimetype": "text/html",
+                      "droptarget": "experiencefragment",
+                      "assetGroup": "content"
+                    },
+                    "mapping_1575030853128": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "resourceType": "adaptdialog/components/contentfragment",
+                      "assetMimetype": [
+                        "text/html",
+                        "application/vnd.adobe.contentfragment"
+                      ],
+                      "droptarget": "contentfragment",
+                      "assetGroup": "media"
+                    }
+                  }
+                }
+              }
+            },
+            "teaser": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_1575031387650": {
+                "jcr:primaryType": "nt:unstructured",
+                "titleType": "h3",
+                "jcr:title": "Content Teaser",
+                "jcr:description": "Sets the title size to H3.",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "download": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_1575032193319": {
+                "jcr:primaryType": "nt:unstructured",
+                "titleType": "h3",
+                "jcr:title": "Content Download",
+                "displayFilename": "true",
+                "jcr:description": "Sets the title size to H3.",
+                "allowUpload": "false",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "displaySize": "true",
+                "displayFormat": "true",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "page": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "Generic Page",
+                "clientlibsJsHead": "adaptdialog.dependencies",
+                "jcr:lastModifiedBy": "admin",
+                "clientlibsAsync": "false",
+                "rtl": "true",
+                "jcr:description": "Includes the required client libraries.",
+                "jcr:lastModified": "Tue Sep 24 2024 09:35:23 GMT+0200",
+                "clientlibs": [
+                  "adaptdialog.dependencies",
+                  "adaptdialog.site"
+                ],
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "hero": {
+              "jcr:primaryType": "nt:unstructured",
+              "policy_1722862607892": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:title": "standard",
+                "jcr:lastModifiedBy": "admin",
+                "containerHeight": "600",
+                "jcr:lastModified": "Mon Aug 05 2024 14:56:56 GMT+0200",
+                "sling:resourceType": "wcm/core/components/policy/policy",
+                "jcr:content": {
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            }
+          }
+        },
+        "wcm": {
+          "jcr:primaryType": "nt:unstructured",
+          "foundation": {
+            "jcr:primaryType": "nt:unstructured",
+            "components": {
+              "jcr:primaryType": "nt:unstructured",
+              "responsivegrid": {
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      },
+      "segments": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "sling:resourceType": "cq/contexthub/components/segments-listing-page"
+        },
+        "winter": {
+          "jcr:primaryType": "cq:Page",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Winter",
+            "segmentName": "Season Winter",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "segmentBoost": 0,
+            "sling:resourceType": "cq/contexthub/components/segment-page",
+            "traits": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "cq/contexthub/components/traits/logic/operator-or",
+              "orpar": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "foundation/components/parsys",
+                "one": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "cq/contexthub/components/traits/logic/operator-and",
+                  "andpar": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "foundation/components/parsys",
+                    "location": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "greater-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "40",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "dates": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "sling:resourceType": "cq/contexthub/components/traits/logic/operator-or",
+                      "orpar": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "sling:resourceType": "foundation/components/parsys",
+                        "afterMonth": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "operator": "greater-than-or-equal",
+                          "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                          "dataType": "number",
+                          "left": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "property": "surferinfo/month",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                          },
+                          "right": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "value": "9",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                          }
+                        },
+                        "beforeMonth": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "operator": "less-than",
+                          "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                          "dataType": "number",
+                          "left": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "property": "surferinfo/month",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                          },
+                          "right": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "value": "4",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "two": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "cq/contexthub/components/traits/logic/operator-and",
+                  "andpar": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "foundation/components/parsys",
+                    "location": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "less-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "-38",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "fromMonth": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "greater-than-or-equal",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "surferinfo/month",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "4",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "toMonth": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "less-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "surferinfo/month",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "9",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    }
+                  }
+                },
+                "three": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "operator": "greater-than",
+                  "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                  "dataType": "number",
+                  "left": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "property": "geolocation/latitude",
+                    "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                  },
+                  "right": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "value": "70",
+                    "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                  }
+                },
+                "four": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "operator": "less-than",
+                  "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                  "dataType": "number",
+                  "left": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "property": "geolocation/latitude",
+                    "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                  },
+                  "right": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "value": "-50",
+                    "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summer": {
+          "jcr:primaryType": "cq:Page",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Summer",
+            "segmentName": "Season Summer",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "segmentBoost": 0,
+            "sling:resourceType": "cq/contexthub/components/segment-page",
+            "traits": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "cq/contexthub/components/traits/logic/operator-or",
+              "orpar": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "foundation/components/parsys",
+                "one": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "cq/contexthub/components/traits/logic/operator-and",
+                  "andpar": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "foundation/components/parsys",
+                    "location": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "greater-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "40",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "fromMonth": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "greater-than-or-equal",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "surferinfo/month",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "4",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "toMonth": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "less-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "surferinfo/month",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "9",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    }
+                  }
+                },
+                "two": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "cq/contexthub/components/traits/logic/operator-and",
+                  "andpar": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "foundation/components/parsys",
+                    "location": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "less-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "-38",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "dates": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "sling:resourceType": "cq/contexthub/components/traits/logic/operator-or",
+                      "orpar": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "sling:resourceType": "foundation/components/parsys",
+                        "beforeMonth": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "operator": "less-than",
+                          "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                          "dataType": "number",
+                          "left": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "property": "surferinfo/month",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                          },
+                          "right": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "value": "4",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                          }
+                        },
+                        "afterMonth": {
+                          "jcr:primaryType": "nt:unstructured",
+                          "operator": "greater-than-or-equal",
+                          "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                          "dataType": "number",
+                          "left": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "property": "surferinfo/month",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                          },
+                          "right": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "value": "9",
+                            "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "three": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "sling:resourceType": "cq/contexthub/components/traits/logic/operator-and",
+                  "andpar": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:resourceType": "foundation/components/parsys",
+                    "fromLocation": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "greater-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "-38",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    },
+                    "toLocation": {
+                      "jcr:primaryType": "nt:unstructured",
+                      "operator": "less-than",
+                      "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/variants/property-value",
+                      "dataType": "number",
+                      "left": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "property": "geolocation/latitude",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/property"
+                      },
+                      "right": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "value": "40",
+                        "sling:resourceType": "cq/contexthub/components/traits/generic-comparison/type/value"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "template-types": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:mixinTypes": [
+          "rep:AccessControllable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+        "xf": {
+          "jcr:primaryType": "cq:Template",
+          "jcr:mixinTypes": [
+            "mix:lockable"
+          ],
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "thumbnail.png": {
+            "jcr:primaryType": "nt:file",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:resource",
+              "jcr:lastModifiedBy": "admin",
+              "jcr:mimeType": "image/png",
+              "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              ":jcr:data": 2160,
+              "jcr:uuid": "406403ae-05cc-4af1-98db-a98b7b6a01f5"
+            }
+          },
+          "initial": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/empty-experience-fragment",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:xfVariantType": "web",
+              "cq:tags": [
+                "experience-fragments:variation/web"
+              ],
+              "sling:resourceType": "adaptdialog/components/xfpage",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container"
+              }
+            }
+          },
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Experience Fragment",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:description": "Generic template for empty experience fragments variations of My Site"
+          },
+          "structure": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/empty-experience-fragment",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:deviceGroups": [
+                "mobile/groups/responsive"
+              ],
+              "sling:resourceType": "adaptdialog/components/xfpage",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "editable": true
+              },
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "breakpoints": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "phone": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Smaller Screen",
+                    "width": 768
+                  },
+                  "tablet": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Tablet",
+                    "width": 1200
+                  }
+                }
+              }
+            }
+          },
+          "policies": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:unstructured",
+              "sling:resourceType": "wcm/core/components/policies/mappings",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:policy": "adaptdialog/components/container/policy_1575040440977",
+                "sling:resourceType": "wcm/core/components/policies/mapping"
+              }
+            }
+          }
+        },
+        "rep:policy": {
+          "jcr:primaryType": "rep:ACL",
+          "allow": {
+            "jcr:primaryType": "rep:GrantACE",
+            "rep:principalName": "template-authors",
+            "rep:privileges": [
+              "jcr:read"
+            ]
+          }
+        },
+        "page": {
+          "jcr:primaryType": "cq:Template",
+          "jcr:createdBy": "admin",
+          "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+          "thumbnail.png": {
+            "jcr:primaryType": "nt:file",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:resource",
+              "jcr:mixinTypes": [
+                "dam:Thumbnails"
+              ],
+              "jcr:lastModifiedBy": "admin",
+              "jcr:mimeType": "image/png",
+              "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              ":jcr:data": 2160,
+              "jcr:uuid": "9534fc13-4a28-42c6-b6c3-9ce1b658ba98",
+              "dam:thumbnails": {
+                "jcr:primaryType": "nt:folder",
+                "jcr:createdBy": "admin",
+                "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                "dam:thumbnail_319.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 1344,
+                    "jcr:uuid": "2fa3f9e2-265d-497f-8f34-36af51521b98"
+                  }
+                },
+                "dam:thumbnail_300.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 1199,
+                    "jcr:uuid": "f79405bc-c5e7-45e5-b081-ac96de4c27ed"
+                  }
+                },
+                "dam:thumbnail_48.png": {
+                  "jcr:primaryType": "nt:file",
+                  "jcr:createdBy": "admin",
+                  "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                  "jcr:content": {
+                    "jcr:primaryType": "nt:resource",
+                    "jcr:lastModifiedBy": "admin",
+                    "jcr:mimeType": "image/png",
+                    "jcr:lastModified": "Sun Jul 07 2024 06:37:44 GMT+0200",
+                    ":jcr:data": 238,
+                    "jcr:uuid": "04f67a94-e296-4379-8905-3e749cf5358d"
+                  }
+                }
+              }
+            }
+          },
+          "initial": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/page-content",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "sling:resourceType": "adaptdialog/components/page",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "layout": "responsiveGrid",
+                  "sling:resourceType": "adaptdialog/components/container"
+                }
+              }
+            }
+          },
+          "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Page",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:description": "Generic template for empty pages of My Site"
+          },
+          "structure": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "cq:PageContent",
+              "jcr:createdBy": "admin",
+              "cq:template": "/conf/adaptdialog/settings/wcm/templates/page-content",
+              "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+              "cq:deviceGroups": [
+                "mobile/groups/responsive"
+              ],
+              "sling:resourceType": "adaptdialog/components/page",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "adaptdialog/components/container",
+                "experiencefragment-header": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "fragmentVariationPath": "/content/experience-fragments/adaptdialog/us/en/site/header/master",
+                  "sling:resourceType": "adaptdialog/components/experiencefragment"
+                },
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "layout": "responsiveGrid",
+                  "sling:resourceType": "adaptdialog/components/container",
+                  "editable": true
+                }
+              },
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "breakpoints": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "phone": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Smaller Screen",
+                    "width": 768
+                  },
+                  "tablet": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "title": "Tablet",
+                    "width": 1200
+                  }
+                }
+              }
+            }
+          },
+          "policies": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200",
+            "jcr:content": {
+              "jcr:primaryType": "nt:unstructured",
+              "cq:policy": "adaptdialog/components/page/policy",
+              "sling:resourceType": "wcm/core/components/policies/mappings",
+              "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:policy": "adaptdialog/components/container/policy_1574694950110",
+                "sling:resourceType": "wcm/core/components/policies/mapping",
+                "container": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "cq:policy": "adaptdialog/components/container/policy_1574695586800",
+                  "sling:resourceType": "wcm/core/components/policies/mapping"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cloudconfigs": {
+      "jcr:primaryType": "sling:Folder",
+      "jcr:createdBy": "admin",
+      "jcr:created": "Sun Jul 07 2024 06:37:44 GMT+0200"
+    }
+  },
+  "sling:configs": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:mixinTypes": [
+      "rep:AccessControllable"
+    ],
+    "rep:policy": {
+      "jcr:primaryType": "rep:ACL",
+      "allow": {
+        "jcr:primaryType": "rep:GrantACE",
+        "rep:principalName": "everyone",
+        "rep:privileges": [
+          "jcr:read"
+        ]
+      },
+      "allow1": {
+        "jcr:primaryType": "rep:GrantACE",
+        "rep:principalName": "content-authors",
+        "rep:privileges": [
+          "crx:replicate"
+        ]
+      },
+      "allow2": {
+        "jcr:primaryType": "rep:GrantACE",
+        "rep:principalName": "template-authors",
+        "rep:privileges": [
+          "jcr:versionManagement",
+          "rep:write",
+          "crx:replicate",
+          "jcr:lockManagement"
+        ]
+      },
+      "allow3": {
+        "jcr:primaryType": "rep:GrantACE",
+        "rep:principalName": "version-manager-service",
+        "rep:privileges": [
+          "jcr:versionManagement",
+          "rep:write"
+        ]
+      }
+    },
+    "com.adobe.cq.wcm.core.components.internal.DataLayerConfig": {
+      "jcr:primaryType": "nt:unstructured",
+      "enabled": true
+    },
+    "com.adobe.cq.wcm.core.components.internal.services.pdfviewer.PdfViewerCaConfig": {
+      "jcr:primaryType": "nt:unstructured",
+      "clientId": "28b07c6be4d544f188dc2f36e33b196b",
+      "reportSuiteId": ""
+    }
+  }
+}

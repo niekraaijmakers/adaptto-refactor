@@ -1,0 +1,24 @@
+<template data-sly-template.cta="${@ cta}>">
+    <div class="cmp-hero__cta ${cta.extraCssClass @context='styleString'}">
+        <a href="${cta.link}" aria-label="${cta.ariaLabel}" target="${cta.target}">${cta.text}</a>
+    </div>
+</template>
+<div data-sly-use.hero="com.adobe.raaijmakers.core.models.HeroComponent" aria-label="${hero.ariaLabel}" class="cmp-hero" style="${hero.containerHeight @context='styleString'}">
+    <div class="cmp-hero__slide" data-sly-repeat.slide="${hero.slides}" data-tags="${slide.tags}" style="${hero.containerHeight @context='styleString'}">
+        <div class="cmp-hero__bg"><img src="${slide.imageUrl}"/></div>
+        <div class="cmp-hero__content">
+            <h1>${slide.title}</h1>
+            <p>${slide.description}</p>
+            <div class="left" aria-label="${slide.ariaLabel}" data-sly-call="${cta @ cta=slide.ctaLeft}"></div>
+            <div class="right" data-sly-call="${cta @ cta=slide.ctaRight}"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.cmp-hero').slick({
+            arrows: false
+        });
+    });
+</script>

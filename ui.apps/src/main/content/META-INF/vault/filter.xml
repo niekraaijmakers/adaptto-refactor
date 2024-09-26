@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/adaptdialog/dialogsnippet"/>
+    <filter root="/apps/adaptdialog/clientlibs"/>
+    <filter root="/apps/adaptdialog/components"/>
+    <filter root="/apps/adaptdialog/i18n"/>
+</workspaceFilter>

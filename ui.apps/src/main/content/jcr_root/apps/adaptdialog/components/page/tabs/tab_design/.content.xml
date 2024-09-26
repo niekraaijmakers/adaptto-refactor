@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured">
+    <styletab
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Custom Design values"
+        sling:resourceType="granite/ui/components/coral/foundation/container"
+        margin="{Boolean}true">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Styles"
+                sling:resourceType="granite/ui/components/coral/foundation/container"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <stylegroupmultiple
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                            checked="{Boolean}false"
+                            fieldDescription="If checked, display the content in a right-to-left direction."
+                            name="./rtl"
+                            text="RTL"
+                            value="true"
+                            wrapperClass="cq-AllowedStyles-groupField"/>
+                </items>
+            </column>
+        </items>
+    </styletab>
+</jcr:root>

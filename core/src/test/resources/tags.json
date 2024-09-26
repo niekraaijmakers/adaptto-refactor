@@ -1,0 +1,329 @@
+{
+  "jcr:primaryType": "sling:Folder",
+  "jcr:mixinTypes": [
+    "rep:AccessControllable",
+    "sling:Redirect"
+  ],
+  "jcr:createdBy": "admin",
+  "jcr:title": "Tags",
+  "hidden": true,
+  "sling:target": "/tagging",
+  "jcr:created": "Sun Jul 07 2024 06:35:45 GMT+0200",
+  "sling:resourceType": "sling:redirect",
+  "languages": [
+    "en",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "pt_br",
+    "zh_cn",
+    "zh_tw",
+    "ja",
+    "ko_kr"
+  ],
+  "workflow": {
+    "jcr:primaryType": "cq:Tag",
+    "jcr:createdBy": "admin",
+    "jcr:title": "Workflow",
+    "jcr:created": "Sun Jul 07 2024 06:35:59 GMT+0200",
+    "jcr:description": "",
+    "sling:resourceType": "cq/tagging/components/tag",
+    "system": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "System",
+      "jcr:created": "Sun Jul 07 2024 06:35:59 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag"
+    },
+    "wcm": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "WCM",
+      "jcr:created": "Sun Jul 07 2024 06:36:05 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag",
+      "translatelanguagecopy": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Translate Language Copy",
+        "jcr:created": "Sun Jul 07 2024 06:36:05 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "translation": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Translation",
+        "jcr:created": "Sun Jul 07 2024 06:36:05 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      }
+    },
+    "dam": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "DAM",
+      "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag"
+    },
+    "projects": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Projects",
+      "jcr:created": "Sun Jul 07 2024 06:36:29 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag",
+      "wcm": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "WCM",
+        "jcr:created": "Sun Jul 07 2024 06:36:29 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag",
+        "launch": {
+          "jcr:primaryType": "cq:Tag",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Launch",
+          "jcr:created": "Sun Jul 07 2024 06:36:29 GMT+0200",
+          "jcr:description": "",
+          "sling:resourceType": "cq/tagging/components/tag",
+          "sling:resoureType": "cq/tagging/components/tag"
+        },
+        "email": {
+          "jcr:primaryType": "cq:Tag",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Email",
+          "jcr:created": "Sun Jul 07 2024 06:36:29 GMT+0200",
+          "jcr:description": "",
+          "sling:resourceType": "cq/tagging/components/tag"
+        },
+        "landingpage": {
+          "jcr:primaryType": "cq:Tag",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Landing Page",
+          "jcr:created": "Sun Jul 07 2024 06:36:29 GMT+0200",
+          "jcr:description": "",
+          "sling:resourceType": "cq/tagging/components/tag"
+        }
+      }
+    },
+    "adobe-launch": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Adobe Launch",
+      "jcr:created": "Sun Jul 07 2024 06:36:32 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag"
+    }
+  },
+  "experience-fragments": {
+    "jcr:primaryType": "cq:Tag",
+    "jcr:createdBy": "admin",
+    "jcr:title": "Experience Fragments",
+    "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+    "jcr:description": "Tag structured used by the Experience Fragments feature",
+    "sling:resourceType": "cq/tagging/components/tag",
+    "variation": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Variation",
+      "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+      "jcr:description": "A tag used by the experience fragments variations",
+      "sling:resourceType": "cq/tagging/components/tag",
+      "web": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Web",
+        "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+        "jcr:description": "A tag used by the web variations of an experience fragment",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "facebook": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Facebook",
+        "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+        "jcr:description": "A tag used by the Facebook variations of an experience fragment",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "pinterest": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Pinterest",
+        "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+        "jcr:description": "A tag used by the Pinterest variations of an experience fragment",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "screens": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Screens",
+        "jcr:created": "Sun Jul 07 2024 06:36:31 GMT+0200",
+        "jcr:description": "A tag used by the Screens variations of an experience fragment",
+        "sling:resourceType": "cq/tagging/components/tag"
+      }
+    }
+  },
+  "default": {
+    "jcr:primaryType": "cq:Tag",
+    "jcr:createdBy": "admin",
+    "jcr:title": "Standard Tags",
+    "jcr:created": "Sun Jul 07 2024 06:35:59 GMT+0200",
+    "sling:resourceType": "cq/tagging/components/tag",
+    "do-not-translate": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Do Not Translate",
+      "jcr:created": "Sun Jul 07 2024 06:36:05 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag"
+    }
+  },
+  "rep:policy": {
+    "jcr:primaryType": "rep:ACL",
+    "allow": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "dam-replication-service",
+      "rep:privileges": [
+        "crx:replicate",
+        "jcr:read",
+        "jcr:modifyAccessControl",
+        "jcr:readAccessControl",
+        "jcr:modifyProperties"
+      ]
+    },
+    "allow1": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "translation-job-service",
+      "rep:privileges": [
+        "jcr:read",
+        "jcr:modifyProperties"
+      ]
+    },
+    "allow2": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "tag-administrators",
+      "rep:privileges": [
+        "jcr:versionManagement",
+        "jcr:read",
+        "jcr:modifyAccessControl",
+        "jcr:readAccessControl",
+        "rep:write",
+        "crx:replicate",
+        "jcr:lockManagement"
+      ]
+    },
+    "allow3": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "everyone",
+      "rep:privileges": [
+        "jcr:read"
+      ],
+      "rep:restrictions": {
+        "jcr:primaryType": "rep:Restrictions",
+        "rep:glob": ""
+      }
+    },
+    "allow4": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "tag-garbage-collection-service",
+      "rep:privileges": [
+        "jcr:read",
+        "rep:write",
+        "crx:replicate"
+      ]
+    },
+    "allow5": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "tag-validation-service",
+      "rep:privileges": [
+        "jcr:read"
+      ]
+    },
+    "allow6": {
+      "jcr:primaryType": "rep:GrantACE",
+      "rep:principalName": "acs-commons-remote-assets-service",
+      "rep:privileges": [
+        "jcr:versionManagement",
+        "jcr:read",
+        "rep:write",
+        "crx:replicate"
+      ]
+    }
+  },
+  "properties": {
+    "jcr:primaryType": "cq:Tag",
+    "jcr:createdBy": "admin",
+    "jcr:title": "Asset Properties",
+    "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+    "jcr:description": "",
+    "sling:resourceType": "cq/tagging/components/tag",
+    "orientation": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Orientation",
+      "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag",
+      "portrait": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Portrait",
+        "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "landscape": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Landscape",
+        "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "square": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Square",
+        "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      }
+    },
+    "style": {
+      "jcr:primaryType": "cq:Tag",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Style",
+      "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+      "jcr:description": "",
+      "sling:resourceType": "cq/tagging/components/tag",
+      "color": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Color",
+        "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag"
+      },
+      "monochrome": {
+        "jcr:primaryType": "cq:Tag",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Monochrome",
+        "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+        "jcr:description": "",
+        "sling:resourceType": "cq/tagging/components/tag",
+        "grayscale": {
+          "jcr:primaryType": "cq:Tag",
+          "jcr:createdBy": "admin",
+          "jcr:title": "Grayscale",
+          "jcr:created": "Sun Jul 07 2024 06:36:21 GMT+0200",
+          "jcr:description": "",
+          "sling:resourceType": "cq/tagging/components/tag"
+        }
+      }
+    }
+  }
+}
