@@ -50,7 +50,7 @@
                     value="${{(String)extraCssClass}}"
                     name="./extraCssClass"/>
 
-            <type
+            <target
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/form/select"
                     fieldLabel="${{(String)ctaPrefix:CTA}} Target"
@@ -73,7 +73,7 @@
                                 text="Top Frame"
                                 value="_top"/>
                   </items>
-            </type>
+            </target>
       </items>
 
 </jcr:root>

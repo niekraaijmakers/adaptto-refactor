@@ -99,7 +99,7 @@
                                                     value="slide1-left"
                                                     name="./slide1/ctaLeft/extraCssClass"/>
 
-                                            <type
+                                            <target
                                                     jcr:primaryType="nt:unstructured"
                                                     sling:resourceType="granite/ui/components/coral/foundation/form/select"
                                                     fieldLabel="Left CTA Target"
@@ -122,7 +122,7 @@
                                                             text="Top Frame"
                                                             value="_top"/>
                                                 </items>
-                                            </type>
+                                            </target>
                                         </items>
 
                                     </leftCta>
@@ -177,7 +177,7 @@
                                                     value="slide1-right"
                                                     name="./slide1/ctaRight/extraCssClass"/>
 
-                                            <type
+                                            <target
                                                     jcr:primaryType="nt:unstructured"
                                                     sling:resourceType="granite/ui/components/coral/foundation/form/select"
                                                     fieldLabel="Right CTA Target"
@@ -200,7 +200,7 @@
                                                             text="Top Frame"
                                                             value="_top"/>
                                                 </items>
-                                            </type>
+                                            </target>
                                         </items>
 
                                     </rightCta>
