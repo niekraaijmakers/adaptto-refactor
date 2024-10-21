@@ -33,6 +33,7 @@
                     jcr:title="Left Cta"
                     sling:resourceType="acs-commons/granite/ui/components/include"
                     path="/apps/adaptdialog/dialogsnippet/cta"
+                    wrapperClass="foundation-toggleable"
                     namespace="ctaLeft"
                     margin="{Boolean}true">
                     <parameters
@@ -45,6 +46,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Right Cta"
                     sling:resourceType="acs-commons/granite/ui/components/include"
+                    wrapperClass="foundation-toggleable"
                     path="/apps/adaptdialog/dialogsnippet/cta"
                     namespace="ctaRight"
                     margin="{Boolean}true">
