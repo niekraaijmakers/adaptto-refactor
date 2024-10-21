@@ -60,7 +60,7 @@
                                     sling:resourceType="cq/gui/components/common/tagspicker"/>
                             <section
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
                                     maximized="{Boolean}true">
                                 <items jcr:primaryType="nt:unstructured">
 
@@ -268,7 +268,7 @@
                                     sling:resourceType="cq/gui/components/common/tagspicker"/>
                             <section
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
                                     maximized="{Boolean}true">
                                 <items jcr:primaryType="nt:unstructured">
                                     <leftCta  jcr:title="left cta"  jcr:primaryType="nt:unstructured"
@@ -464,7 +464,7 @@
                                     sling:resourceType="cq/gui/components/common/tagspicker"/>
                             <section
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="granite/ui/components/coral/foundation/accordion"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
                                     maximized="{Boolean}true">
                                 <items jcr:primaryType="nt:unstructured">
                                     <leftCta  jcr:title="left cta"  jcr:primaryType="nt:unstructured"
