@@ -15,6 +15,20 @@
                     maximized="{Boolean}true">
                 <items jcr:primaryType="nt:unstructured">
 
+<!--                    <slide1-->
+<!--                            jcr:primaryType="nt:unstructured"-->
+<!--                            jcr:title="Slide 1"-->
+<!--                            sling:resourceType="acs-commons/granite/ui/components/include"-->
+<!--                            path="/apps/adaptdialog/components/hero/tab_slide"-->
+<!--                            namespace="slide1"-->
+<!--                            margin="{Boolean}true">-->
+<!--                        <parameters-->
+<!--                                jcr:primaryType="nt:unstructured"-->
+<!--                                extraCssClassCtaLeft="slide1-left"-->
+<!--                                extraCssClassCtaRight="slide1-right"-->
+<!--                        />-->
+<!--                    </slide1>-->
+
                     <slide1
                               jcr:title="Slide 1"
                               jcr:primaryType="nt:unstructured"
